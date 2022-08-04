@@ -1,5 +1,5 @@
 {
-    "AWSEBDockerrunVersion": "1",
+    "AWSEBDockerrunVersion": "Sample Application",
     "Image": {
       "Name": "registry.hub.docker.com/hanansalem88/dojo-jump:latest"
     },
