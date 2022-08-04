@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t chandradeoarya/dojo-jump:latest .'
+				sh 'docker build -t hanansalem88/dojo-jump:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push chandradeoarya/dojo-jump:latest'
+				sh 'docker push hanansalem88/dojo-jump:latest'
 			}
 		}
 	}
